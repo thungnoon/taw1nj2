@@ -35,6 +35,9 @@ git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 git clone -b master --depth 1 https://github.com/vernesong/OpenClash.git
 # #poweroffdevice
 git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-poweroffdevice.git
+# #istore
+git clone -b main --depth 1 https://github.com/linkease/istore.git
+git clone -b main --depth 1 https://github.com/linkease/istore-ui.git
 
 popd
 
