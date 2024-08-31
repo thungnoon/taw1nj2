@@ -1,6 +1,9 @@
 #rootfs
 CONFIG_TARGET_ROOTFS_PARTSIZE=1024
 
+#ipv6
+CONFIG_PACKAGE_ipv6helper=y
+
 #language
 CONFIG_PACKAGE_default-settings-chn=y
 
@@ -11,7 +14,7 @@ CONFIG_PACKAGE_luci-app-argon-config=y
 #luci
 CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
-CONFIG_PACKAGE_luci-app-adbyby-plus=y
+# CONFIG_PACKAGE_luci-app-adbyby-plus=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
 # CONFIG_PACKAGE_luci-app-adguardhome_INCLUDE_binary is not set
 CONFIG_PACKAGE_luci-app-diskman=y
@@ -24,7 +27,7 @@ CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-passwall=y
 # CONFIG_PACKAGE_luci-app-passwall2=y
 CONFIG_PACKAGE_luci-app-smartdns=y
-# CONFIG_PACKAGE_luci-app-ttyd=y
+CONFIG_PACKAGE_luci-app-ttyd=y
 # CONFIG_PACKAGE_luci-app-vlmcsd=y
 
 
