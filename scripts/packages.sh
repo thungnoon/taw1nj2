@@ -36,8 +36,7 @@ git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-poweroffdevice.
 # #istore
 git clone -b main --depth 1 https://github.com/linkease/istore.git
 git clone -b main --depth 1 https://github.com/linkease/istore-ui.git
-# #mihomo
-# git clone -b main --depth 1 https://github.com/morytyann/OpenWrt-mihomo.git
+# #nikki 
 git clone -b main --depth 1 https://github.com/nikkinikki-org/OpenWrt-nikki.git
 popd
 
