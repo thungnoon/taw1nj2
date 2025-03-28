@@ -33,13 +33,15 @@ git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 git clone -b master --depth 1 https://github.com/vernesong/OpenClash.git
 # #poweroffdevice
 git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-poweroffdevice.git
+# #partexp
+git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-partexp.git  
 # #istore
 git clone -b main --depth 1 https://github.com/linkease/istore.git
 git clone -b main --depth 1 https://github.com/linkease/istore-ui.git
 # #nikki 
 git clone -b main --depth 1 https://github.com/nikkinikki-org/OpenWrt-nikki.git
 # #luci-theme-infinityfreedom
-git clone -b main --depth 1 https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+git clone -b master --depth 1 https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
 popd
 
 echo "packages executed successfully!"
